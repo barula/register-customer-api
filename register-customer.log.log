@@ -1,364 +1,41 @@
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:43-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 75010 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:43-0300" , "file" : "SpringApplication.java" , "line" : 648 , "msg" : "No active profile set, falling back to default profiles: default" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:45-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:45-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:46-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:46-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 2356 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:46-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:47-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:47-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4450706}" }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:37:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:37:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:37:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:37:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:48-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:48-0300" , "file" : "UserDetailsServiceAutoConfiguration.java" , "line" : 83 , "msg" : "
-
-Using generated security password: d2d6ab35-1e34-4af7-bf84-01d5b5dc8e24
-" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:49-0300" , "file" : "DefaultSecurityFilterChain.java" , "line" : 43 , "msg" : "Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@765c78cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@7beb4b83, org.springframework.security.web.header.HeaderWriterFilter@642356d, org.springframework.security.web.csrf.CsrfFilter@77346a37, org.springframework.security.web.authentication.logout.LogoutFilter@2fd837ef, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a44355, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c7656ab, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3e8d24ca, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@758edf14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68e6251, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21cd6c39, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e815026, org.springframework.security.web.session.SessionManagementFilter@6b1a05b, org.springframework.security.web.access.ExceptionTranslationFilter@6dee9dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9942950]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:49-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:49-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:49-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:37:49-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 5.89 seconds (JVM running for 11.329)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:41:32-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring DispatcherServlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:41:32-0300" , "file" : "FrameworkServlet.java" , "line" : 525 , "msg" : "Initializing Servlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:41:32-0300" , "file" : "FrameworkServlet.java" , "line" : 547 , "msg" : "Completed initialization in 16 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:41:48-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 208 , "msg" : "Shutting down ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:44-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 75297 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:44-0300" , "file" : "SpringApplication.java" , "line" : 648 , "msg" : "No active profile set, falling back to default profiles: default" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:45-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:45-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:46-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:46-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 1948 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:47-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:47-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:47-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4292855}" }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:42:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:42:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:42:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:42:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:48-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:49-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:49-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:49-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:49-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 5.031 seconds (JVM running for 9.462)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:53-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring DispatcherServlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:53-0300" , "file" : "FrameworkServlet.java" , "line" : 525 , "msg" : "Initializing Servlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:42:53-0300" , "file" : "FrameworkServlet.java" , "line" : 547 , "msg" : "Completed initialization in 69 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:43:15-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:2, serverValue:4}] to localhost:27017" }
-{ "level" : "ERROR" , "datetime" : "2020-07-10T15:44:19-0300" , "file" : "DirectJDKLog.java" , "line" : 175 , "msg" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: com/google/common/collect/Lists] with root cause" , "stacktrace" : " java.lang.ClassNotFoundException: com.google.common.collect.Lists
-	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	at com.paypertic.filter.util.datastore.SearcheableDatastoreAccess.findInDatabase(SearcheableDatastoreAccess.java:60)
-	at com.paypertic.filter.util.datastore.SearcheableDatastoreAccess.search(SearcheableDatastoreAccess.java:29)
-	at com.paypertic.filter.util.datastore.SearcheableDatastoreAccess$$FastClassBySpringCGLIB$$41af3173.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:750)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.huawei.entities.access.CustomersDatastore$$EnhancerBySpringCGLIB$$a5d46c9f.search(<generated>)
-	at com.paypertic.filter.util.SearchUtils.search(SearchUtils.java:29)
-	at com.paypertic.filter.util.SearchUtils.search(SearchUtils.java:20)
-	at com.huawei.services.CustomerService.search(CustomerService.java:71)
-	at com.huawei.controllers.CustomerController.search(CustomerController.java:46)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-"}
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:21-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 208 , "msg" : "Shutting down ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:21-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Closed connection [connectionId{localValue:2, serverValue:4}] to localhost:27017 because the pool has been closed." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:40-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 75552 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:40-0300" , "file" : "SpringApplication.java" , "line" : 648 , "msg" : "No active profile set, falling back to default profiles: default" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:41-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:41-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:42-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:42-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:42-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:42-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:43-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:43-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 2509 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:43-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:44-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:44-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7561267}" }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:47:44-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:47:44-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:47:44-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:47:44-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:45-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:45-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:46-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:46-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:47:46-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 6.165 seconds (JVM running for 11.538)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:48:02-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring DispatcherServlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:48:02-0300" , "file" : "FrameworkServlet.java" , "line" : 525 , "msg" : "Initializing Servlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:48:02-0300" , "file" : "FrameworkServlet.java" , "line" : 547 , "msg" : "Completed initialization in 114 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:48:02-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:48:11-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 208 , "msg" : "Shutting down ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:48:11-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Closed connection [connectionId{localValue:2, serverValue:6}] to localhost:27017 because the pool has been closed." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:31-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 75767 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:31-0300" , "file" : "SpringApplication.java" , "line" : 648 , "msg" : "No active profile set, falling back to default profiles: default" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:33-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:33-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:34-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:34-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:34-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:34-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:34-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:34-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 3532 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:35-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:35-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:35-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5450211}" }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:51:35-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:51:35-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:51:35-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T15:51:35-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:37-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:37-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:37-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:37-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T15:51:37-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 7.131 seconds (JVM running for 11.862)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:13:38-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 208 , "msg" : "Shutting down ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:54-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 76901 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:54-0300" , "file" : "SpringApplication.java" , "line" : 652 , "msg" : "The following profiles are active: dev" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:55-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:55-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:57-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:57-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:57-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:57-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:57-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:16:57-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 278 , "msg" : "Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:57-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 3554 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:58-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[loclahost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:58-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Adding discovered server loclahost:27017 to client view of cluster" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:16:58-0300" , "file" : "SLF4JLogger.java" , "line" : 76 , "msg" : "Exception in monitor thread while connecting to server loclahost:27017" }
-com.mongodb.MongoSocketException: loclahost: nodename nor servname provided, or not known
-	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188) ~[mongo-java-driver-3.8.2.jar:?]
-	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongo-java-driver-3.8.2.jar:?]
-	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongo-java-driver-3.8.2.jar:?]
-	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongo-java-driver-3.8.2.jar:?]
-	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) [mongo-java-driver-3.8.2.jar:?]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-Caused by: java.net.UnknownHostException: loclahost: nodename nor servname provided, or not known
-	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
-	at java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929) ~[?:?]
-	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515) ~[?:?]
-	at java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848) ~[?:?]
-	at java.net.InetAddress.getAllByName0(InetAddress.java:1505) ~[?:?]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1364) ~[?:?]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1298) ~[?:?]
-	at java.net.InetAddress.getByName(InetAddress.java:1248) ~[?:?]
-	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186) ~[mongo-java-driver-3.8.2.jar:?]
-	... 5 more
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:16:58-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:16:58-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:16:59-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:16:59-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:00-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/**/favicon.ico] in 'faviconHandlerMapping'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:00-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:00-0300" , "file" : "RequestMappingHandlerAdapter.java" , "line" : 620 , "msg" : "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:00-0300" , "file" : "AbstractHandlerMethodMapping.java" , "line" : 351 , "msg" : "5 mappings in 'requestMappingHandlerMapping'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:00-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/webjars/**, /**] in 'resourceHandlerMapping'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:00-0300" , "file" : "ExceptionHandlerExceptionResolver.java" , "line" : 303 , "msg" : "ControllerAdvice beans: 0 @ExceptionHandler, 2 ResponseBodyAdvice" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:01-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:01-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:01-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:01-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 7.827 seconds (JVM running for 13.818)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:05-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 208 , "msg" : "Shutting down ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:28-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 76946 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:28-0300" , "file" : "SpringApplication.java" , "line" : 652 , "msg" : "The following profiles are active: dev" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:30-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:30-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:31-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:31-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:31-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:31-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:31-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:31-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 278 , "msg" : "Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:31-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 3318 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:32-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:32-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Adding discovered server localhost:27017 to client view of cluster" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:32-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:32-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6317975}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:32-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Discovered cluster type of STANDALONE" }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:17:33-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:17:33-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:17:33-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:17:33-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:34-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/**/favicon.ico] in 'faviconHandlerMapping'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:34-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:35-0300" , "file" : "RequestMappingHandlerAdapter.java" , "line" : 620 , "msg" : "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:35-0300" , "file" : "AbstractHandlerMethodMapping.java" , "line" : 351 , "msg" : "5 mappings in 'requestMappingHandlerMapping'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:35-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/webjars/**, /**] in 'resourceHandlerMapping'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:35-0300" , "file" : "ExceptionHandlerExceptionResolver.java" , "line" : 303 , "msg" : "ControllerAdvice beans: 0 @ExceptionHandler, 2 ResponseBodyAdvice" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:35-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:35-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:36-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:36-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 8.894 seconds (JVM running for 16.266)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:49-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring DispatcherServlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:49-0300" , "file" : "FrameworkServlet.java" , "line" : 525 , "msg" : "Initializing Servlet 'dispatcherServlet'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:49-0300" , "file" : "DispatcherServlet.java" , "line" : 526 , "msg" : "Detected StandardServletMultipartResolver" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:49-0300" , "file" : "FrameworkServlet.java" , "line" : 542 , "msg" : "enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:49-0300" , "file" : "FrameworkServlet.java" , "line" : 547 , "msg" : "Completed initialization in 16 ms" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:49-0300" , "file" : "LogFormatUtils.java" , "line" : 91 , "msg" : "GET "/customers", parameters={}" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:49-0300" , "file" : "AbstractHandlerMapping.java" , "line" : 421 , "msg" : "Mapped to public com.paypertic.filter.util.models.Page<com.huawei.models.CustomerModel> com.huawei.controllers.CustomerController.search(javax.servlet.http.HttpServletRequest)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:17:49-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:2, serverValue:9}] to localhost:27017" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:50-0300" , "file" : "AbstractMessageConverterMethodProcessor.java" , "line" : 269 , "msg" : "Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:50-0300" , "file" : "LogFormatUtils.java" , "line" : 91 , "msg" : "Writing [com.paypertic.filter.util.models.Page@589694ad]" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:17:50-0300" , "file" : "FrameworkServlet.java" , "line" : 1131 , "msg" : "Completed 200 OK" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:21-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 79304 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api2/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api2)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:22-0300" , "file" : "SpringApplication.java" , "line" : 652 , "msg" : "The following profiles are active: dev" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:23-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:23-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:24-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:24-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:25-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:25-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:25-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:25-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 278 , "msg" : "Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:25-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 3126 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Adding discovered server localhost:27017 to client view of cluster" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:1, serverValue:10}] to localhost:27017" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5175661}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Discovered cluster type of STANDALONE" }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T16:46:26-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/**/favicon.ico] in 'faviconHandlerMapping'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "RequestMappingHandlerAdapter.java" , "line" : 620 , "msg" : "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "AbstractHandlerMethodMapping.java" , "line" : 351 , "msg" : "5 mappings in 'requestMappingHandlerMapping'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/webjars/**, /**] in 'resourceHandlerMapping'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "ExceptionHandlerExceptionResolver.java" , "line" : 303 , "msg" : "ControllerAdvice beans: 0 @ExceptionHandler, 2 ResponseBodyAdvice" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:28-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 7.784 seconds (JVM running for 16.678)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:37-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring DispatcherServlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:37-0300" , "file" : "FrameworkServlet.java" , "line" : 525 , "msg" : "Initializing Servlet 'dispatcherServlet'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:37-0300" , "file" : "DispatcherServlet.java" , "line" : 526 , "msg" : "Detected StandardServletMultipartResolver" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:37-0300" , "file" : "FrameworkServlet.java" , "line" : 542 , "msg" : "enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:37-0300" , "file" : "FrameworkServlet.java" , "line" : 547 , "msg" : "Completed initialization in 20 ms" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:37-0300" , "file" : "LogFormatUtils.java" , "line" : 91 , "msg" : "GET "/customers", parameters={}" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:37-0300" , "file" : "AbstractHandlerMapping.java" , "line" : 421 , "msg" : "Mapped to public com.paypertic.filter.util.models.Page<com.huawei.models.CustomerModel> com.huawei.controllers.CustomerController.search(javax.servlet.http.HttpServletRequest)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T16:46:37-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:2, serverValue:11}] to localhost:27017" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:38-0300" , "file" : "AbstractMessageConverterMethodProcessor.java" , "line" : 269 , "msg" : "Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:38-0300" , "file" : "LogFormatUtils.java" , "line" : 91 , "msg" : "Writing [com.paypertic.filter.util.models.Page@41746605]" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T16:46:38-0300" , "file" : "FrameworkServlet.java" , "line" : 1131 , "msg" : "Completed 200 OK" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:11-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 208 , "msg" : "Shutting down ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:11-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Closed connection [connectionId{localValue:2, serverValue:11}] to localhost:27017 because the pool has been closed." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:32-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 81144 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api2/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api2)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:32-0300" , "file" : "SpringApplication.java" , "line" : 652 , "msg" : "The following profiles are active: dev" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:33-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:33-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 80ms. Found 0 repository interfaces." }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:34-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:34-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:34-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:34-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:35-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:35-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 278 , "msg" : "Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:35-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 2889 ms" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:35-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:35-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Adding discovered server localhost:27017 to client view of cluster" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:36-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:1, serverValue:12}] to localhost:27017" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:36-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7027586}" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:36-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Discovered cluster type of STANDALONE" }
-{ "level" : "WARN" , "datetime" : "2020-07-10T17:24:36-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T17:24:36-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T17:24:36-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "WARN" , "datetime" : "2020-07-10T17:24:36-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:37-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/**/favicon.ico] in 'faviconHandlerMapping'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:37-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:38-0300" , "file" : "RequestMappingHandlerAdapter.java" , "line" : 620 , "msg" : "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:38-0300" , "file" : "AbstractHandlerMethodMapping.java" , "line" : 351 , "msg" : "5 mappings in 'requestMappingHandlerMapping'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:38-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/webjars/**, /**] in 'resourceHandlerMapping'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:38-0300" , "file" : "ExceptionHandlerExceptionResolver.java" , "line" : 303 , "msg" : "ControllerAdvice beans: 0 @ExceptionHandler, 2 ResponseBodyAdvice" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:38-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:38-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:38-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:38-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 7.361 seconds (JVM running for 13.902)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:43-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring DispatcherServlet 'dispatcherServlet'" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:43-0300" , "file" : "FrameworkServlet.java" , "line" : 525 , "msg" : "Initializing Servlet 'dispatcherServlet'" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:43-0300" , "file" : "DispatcherServlet.java" , "line" : 526 , "msg" : "Detected StandardServletMultipartResolver" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:43-0300" , "file" : "FrameworkServlet.java" , "line" : 542 , "msg" : "enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:43-0300" , "file" : "FrameworkServlet.java" , "line" : 547 , "msg" : "Completed initialization in 27 ms" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:44-0300" , "file" : "LogFormatUtils.java" , "line" : 91 , "msg" : "GET "/customers", parameters={}" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:44-0300" , "file" : "AbstractHandlerMapping.java" , "line" : 421 , "msg" : "Mapped to public com.paypertic.filter.util.models.Page<com.huawei.models.CustomerModel> com.huawei.controllers.CustomerController.search(javax.servlet.http.HttpServletRequest)" }
-{ "level" : "INFO" , "datetime" : "2020-07-10T17:24:44-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:2, serverValue:13}] to localhost:27017" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:45-0300" , "file" : "AbstractMessageConverterMethodProcessor.java" , "line" : 269 , "msg" : "Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:45-0300" , "file" : "LogFormatUtils.java" , "line" : 91 , "msg" : "Writing [com.paypertic.filter.util.models.Page@26eb84bc]" }
-{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:24:45-0300" , "file" : "FrameworkServlet.java" , "line" : 1131 , "msg" : "Completed 200 OK" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:42-0300" , "file" : "StartupInfoLogger.java" , "line" : 50 , "msg" : "Starting Application on unknown.lan with PID 81964 (/Users/satelier.martin/Documents/IdeaProjects/register-customer-api2/target/classes started by satelier.martin in /Users/satelier.martin/Documents/IdeaProjects/register-customer-api2)" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:42-0300" , "file" : "SpringApplication.java" , "line" : 652 , "msg" : "The following profiles are active: dev" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:44-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 126 , "msg" : "Bootstrapping Spring Data repositories in DEFAULT mode." }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:44-0300" , "file" : "RepositoryConfigurationDelegate.java" , "line" : 182 , "msg" : "Finished Spring Data repository scanning in 58ms. Found 0 repository interfaces." }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:45-0300" , "file" : "TomcatWebServer.java" , "line" : 90 , "msg" : "Tomcat initialized with port(s): 8080 (http)" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:45-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing ProtocolHandler ["http-nio-8080"]" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:45-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting service [Tomcat]" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:45-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting Servlet engine: [Apache Tomcat/9.0.26]" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:45-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring embedded WebApplicationContext" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:45-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 278 , "msg" : "Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:45-0300" , "file" : "ServletWebServerApplicationContext.java" , "line" : 284 , "msg" : "Root WebApplicationContext: initialization completed in 2962 ms" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:46-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:46-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Adding discovered server localhost:27017 to client view of cluster" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:46-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:1, serverValue:16}] to localhost:27017" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:46-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 2]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6801101}" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:46-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Discovered cluster type of STANDALONE" }
+{ "level" : "WARN" , "datetime" : "2020-07-10T17:45:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
+{ "level" : "WARN" , "datetime" : "2020-07-10T17:45:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
+{ "level" : "WARN" , "datetime" : "2020-07-10T17:45:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
+{ "level" : "WARN" , "datetime" : "2020-07-10T17:45:47-0300" , "file" : "CustomConversions.java" , "line" : 207 , "msg" : "Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation." }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:48-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/**/favicon.ico] in 'faviconHandlerMapping'" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:49-0300" , "file" : "ExecutorConfigurationSupport.java" , "line" : 171 , "msg" : "Initializing ExecutorService 'applicationTaskExecutor'" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:49-0300" , "file" : "RequestMappingHandlerAdapter.java" , "line" : 620 , "msg" : "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 2 ResponseBodyAdvice" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:49-0300" , "file" : "AbstractHandlerMethodMapping.java" , "line" : 351 , "msg" : "5 mappings in 'requestMappingHandlerMapping'" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:49-0300" , "file" : "SimpleUrlHandlerMapping.java" , "line" : 139 , "msg" : "Patterns [/webjars/**, /**] in 'resourceHandlerMapping'" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:49-0300" , "file" : "ExceptionHandlerExceptionResolver.java" , "line" : 303 , "msg" : "ControllerAdvice beans: 0 @ExceptionHandler, 2 ResponseBodyAdvice" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:50-0300" , "file" : "EndpointLinksResolver.java" , "line" : 58 , "msg" : "Exposing 2 endpoint(s) beneath base path '/actuator'" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:50-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Starting ProtocolHandler ["http-nio-8080"]" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:50-0300" , "file" : "TomcatWebServer.java" , "line" : 202 , "msg" : "Tomcat started on port(s): 8080 (http) with context path ''" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:50-0300" , "file" : "StartupInfoLogger.java" , "line" : 59 , "msg" : "Started Application in 8.586 seconds (JVM running for 14.935)" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:52-0300" , "file" : "DirectJDKLog.java" , "line" : 173 , "msg" : "Initializing Spring DispatcherServlet 'dispatcherServlet'" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:52-0300" , "file" : "FrameworkServlet.java" , "line" : 525 , "msg" : "Initializing Servlet 'dispatcherServlet'" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:52-0300" , "file" : "DispatcherServlet.java" , "line" : 526 , "msg" : "Detected StandardServletMultipartResolver" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:52-0300" , "file" : "FrameworkServlet.java" , "line" : 542 , "msg" : "enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:52-0300" , "file" : "FrameworkServlet.java" , "line" : 547 , "msg" : "Completed initialization in 17 ms" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:52-0300" , "file" : "LogFormatUtils.java" , "line" : 91 , "msg" : "GET "/customers", parameters={}" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:52-0300" , "file" : "AbstractHandlerMapping.java" , "line" : 421 , "msg" : "Mapped to public com.paypertic.filter.util.models.Page<com.huawei.models.CustomerModel> com.huawei.controllers.CustomerController.search(javax.servlet.http.HttpServletRequest)" }
+{ "level" : "INFO" , "datetime" : "2020-07-10T17:45:53-0300" , "file" : "SLF4JLogger.java" , "line" : 71 , "msg" : "Opened connection [connectionId{localValue:2, serverValue:17}] to localhost:27017" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:53-0300" , "file" : "AbstractMessageConverterMethodProcessor.java" , "line" : 269 , "msg" : "Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:53-0300" , "file" : "LogFormatUtils.java" , "line" : 91 , "msg" : "Writing [com.paypertic.filter.util.models.Page@16b3d0df]" }
+{ "level" : "DEBUG" , "datetime" : "2020-07-10T17:45:53-0300" , "file" : "FrameworkServlet.java" , "line" : 1131 , "msg" : "Completed 200 OK" }

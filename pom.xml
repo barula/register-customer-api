@@ -15,21 +15,6 @@
         <version.spring.boot>2.1.9.RELEASE</version.spring.boot>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>ppt-central</id>
-            <name>a6d79b3d3bfc-releases</name>
-            <url>https://factory.paypertic.com/artifactory/libs-release</url>
-        </repository>
-        <repository>
-            <id>snapshots</id>
-            <url>https://factory.paypertic.com/artifactory/libs-snapshot</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-        </repository>
-    </repositories>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -114,7 +99,7 @@
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.1-api</artifactId>
-            <version>1.0.0.Final-redhat-1</version>
+            <version>1.0.2.Final</version>
         </dependency>
 
     </dependencies>
