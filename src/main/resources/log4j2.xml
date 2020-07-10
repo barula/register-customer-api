@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+      <Property name="filename">${sys:com.huawei.logs.location:-/var/log/}${sys:com.huawei.logs.filename:-log}</Property>
+      <Property name="msgDefault">{ \"level\" : \"%p\" , \"datetime\" : \"%d{yyyy-MM-dd'T'HH:mm:ssZ}\" , \"file\" : \"%F\" , \"line\" : %L , \"msg\" : \"%m\" }%n</Property>
+      <Property name="msgMarker">{ \"level\" : \"%p\" , \"datetime\" : \"%d{yyyy-MM-dd'T'HH:mm:ssZ}\" , \"file\" : \"%F\" , \"line\" : %L , \"msg\" : %m }%n</Property>
+      <Property name="msgError">{ \"level\" : \"%p\" , \"datetime\" : \"%d{yyyy-MM-dd'T'HH:mm:ssZ}\" , \"file\" : \"%F\" , \"line\" : %L , \"msg\" : \"%m\" , \"stacktrace\" : \"%throwable\"}%n</Property>
+    </Properties>
+
+  <Appenders>
+    <Console name="ConsoleDefault">
+      <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="ACCEPT"/>
+        <PatternLayout charset="UTF-8">
+          <MarkerPatternSelector defaultPattern="${msgDefault}">
+            <PatternMatch key="MARKER" pattern="${msgMarker}"/>
+          </MarkerPatternSelector>
+        </PatternLayout>
+    </Console>
+
+    <Console name="ConsoleError">
+      <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+        <PatternLayout charset="UTF-8">
+          <MarkerPatternSelector defaultPattern="${msgError}">
+            <PatternMatch key="MARKER" pattern="${msgMarker}"/>
+          </MarkerPatternSelector>
+        </PatternLayout>
+    </Console>
+
+    <Routing name="RoutingDefault">
+      <Routes pattern="$${sd:type}">
+        <Route>
+          <RollingFile name="$${sd:type}" fileName="${filename}.log" filePattern="${filename}%d{yyyy-MM-dd}.log.gz">
+            <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="ACCEPT"/>
+            <PatternLayout charset="UTF-8">
+              <MarkerPatternSelector defaultPattern="${msgDefault}">
+                <PatternMatch key="MARKER" pattern="${msgMarker}"/>
+              </MarkerPatternSelector>
+            </PatternLayout>
+            <TimeBasedTriggeringPolicy/>
+          </RollingFile>
+        </Route>
+      </Routes>
+    </Routing>
+
+    <Routing name="RoutingError">
+      <Routes pattern="$${sd:type}">
+        <Route>
+          <RollingFile name="$${sd:type}" fileName="${filename}.log" filePattern="${filename}%d{yyyy-MM-dd}.log.gz">
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout charset="UTF-8">
+              <MarkerPatternSelector defaultPattern="${msgError}">
+                <PatternMatch key="MARKER" pattern="${msgMarker}"/>
+              </MarkerPatternSelector>
+            </PatternLayout>
+            <TimeBasedTriggeringPolicy/>
+          </RollingFile>
+        </Route>
+      </Routes>
+    </Routing>
+  </Appenders>
+
+  <Loggers>
+    <Root level="INFO">
+      <AppenderRef ref="ConsoleDefault" />
+      <AppenderRef ref="ConsoleError" />
+      <AppenderRef ref="RoutingDefault" />
+      <AppenderRef ref="RoutingError" />
+    </Root>
+  </Loggers>
+</Configuration>
