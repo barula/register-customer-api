@@ -1,7 +1,7 @@
 package com.huawei.entities.access;
 
 import com.huawei.entities.CustomerDocument;
-import com.paypertic.filter.util.datastore.SearcheableDatastoreAccess;
+import com.huawei.util.datastore.SearcheableDatastoreAccess;
 import dev.morphia.Datastore;
 import dev.morphia.query.Query;
 import org.apache.logging.log4j.LogManager;

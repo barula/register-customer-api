@@ -1,10 +1,10 @@
 package com.huawei.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.paypertic.common.enums.security.Realm;
-import com.paypertic.filter.util.annotations.FilterAllow;
-import com.paypertic.filter.util.enums.Operation;
 
+import com.huawei.util.FilterAllow;
+import com.huawei.util.Realm;
+import com.huawei.util.enums.Operation;
 import java.util.Date;
 
 /**

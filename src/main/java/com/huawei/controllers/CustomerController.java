@@ -2,7 +2,7 @@ package com.huawei.controllers;
 
 import com.huawei.models.CustomerModel;
 import com.huawei.services.CustomerService;
-import com.paypertic.filter.util.models.Page;
+import com.huawei.util.models.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
