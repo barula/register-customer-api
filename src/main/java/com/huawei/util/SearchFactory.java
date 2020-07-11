@@ -113,7 +113,10 @@ public class SearchFactory {
      * @return SearchRequest
      */
     public static SearchRequest fromUri(String queryString, Realm realm, Class annotatedModelClass) {
-        List<NameValuePair> params = URLEncodedUtils.parse(queryString, Charsets.UTF_8);
+        List<NameValuePair> params = null;
+        if(queryString != null && !queryString.isEmpty())
+            params = URLEncodedUtils.parse(queryString, Charsets.UTF_8);
+        else params = URLEncodedUtils.parse(URLEncodedUtils.CONTENT_TYPE, Charsets.UTF_8);
 
         SearchRequest searchRequest = new SearchRequest();
         searchRequest.setPage(getPage(params));
