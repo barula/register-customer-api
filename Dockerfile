@@ -15,7 +15,7 @@ ENV mongo_port_env=${mongo_port}
 
 
 RUN mkdir -p /usr/src/register-customer-api/
-WORKDIR /usr/src/reister-customer-api/
+WORKDIR /usr/src/register-customer-api/
 COPY target/register-customer-api.jar .
 
 EXPOSE 8080
