@@ -2,11 +2,11 @@ FROM openjdk:8-jre-alpine
 
 
 
-ENV listener_port_env=${listener_port}
-ENV logs_location_env=${logs_location}
-ENV log_name_env=${log_name}
-ENV mongo_host_env=${mongo_host}
-ENV mongo_port_env=${mongo_port}
+ENV listener_port_env "${listener_port}"
+ENV logs_location_env "${logs_location}"
+ENV log_name_env "${log_name}"
+ENV mongo_host_env "${mongo_host}"
+ENV mongo_port_env "${mongo_port}"
 
 
 
