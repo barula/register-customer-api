@@ -1,11 +1,17 @@
 FROM openjdk:8-jre-alpine
 
 
-ENV listener_port_env
-ENV logs_location_env
-ENV log_name_env
-ENV mongo_host_env
-ENV mongo_port_env
+ARG listener_port=''
+ARG logs_location=''
+ARG log_name=''
+ARG mongo_host=''
+ARG mongo_port=''
+
+ENV listener_port_env=${listener_port}
+ENV logs_location_env=${logs_location}
+ENV log_name_env=${log_name}
+ENV mongo_host_env=${mongo_host}
+ENV mongo_port_env=${mongo_port}
 
 
 
@@ -13,7 +19,7 @@ RUN mkdir -p /usr/src/register-customer-api/
 WORKDIR /usr/src/register-customer-api/
 COPY target/register-customer-api.jar .
 
-EXPOSE 8080
+EXPOSE ${listener_port_env}
 
 ENTRYPOINT exec java \
 -Dcom.huawei.port=${listener_port_env} \
